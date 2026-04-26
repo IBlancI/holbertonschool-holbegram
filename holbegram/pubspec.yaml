@@ -1,0 +1,42 @@
+name: holbegram
+description: "Adilgram - Application de partage de photos."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  firebase_database: ^12.3.0
+  cloudinary_flutter: ^1.3.0
+  provider: ^6.1.5+1
+  cloud_firestore: ^6.3.0
+  bottom_navy_bar: ^6.1.0
+  flutter_staggered_grid_view: ^0.7.0
+  http: ^1.6.0
+  uuid: ^4.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Billabong
+      fonts:
+        - asset: assets/fonts/Billabong.ttf
+    - family: InstagramSans
+      fonts:
+        - asset: assets/fonts/InstagramSans.ttf
